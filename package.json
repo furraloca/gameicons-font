@@ -11,13 +11,16 @@
     "url": "git+https://github.com/seiyria/gameicons-font.git"
   },
   "engines": {
-    "node": "16"
+    "node": "24.x"
   },
   "author": "Kyle Kemp <kyle@seiyria.com>",
   "bugs": {
     "url": "https://github.com/seiyria/gameicons-font/issues"
   },
   "homepage": "https://github.com/seiyria/gameicons-font#readme",
+  "dependencies": {
+    "prepend-file": "^2.0.1"
+  },
   "devDependencies": {
     "node-fetch": "^2.6.7",
     "svg-png-converter": "^0.0.9",

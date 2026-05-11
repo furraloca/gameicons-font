@@ -4,6 +4,7 @@ const path = require('path');
 
 const fetch = require('node-fetch');
 const extract = require('unzipper');
+const prependFile = require('prepend-file');
 const { svg2png } = require('svg-png-converter');
 const webfontsGenerator = require('webfonts-generator');
 
