@@ -22,7 +22,7 @@
     "prepend-file": "^2.0.1"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.7",
+    "node-fetch": "^3.3.2",
     "svg-png-converter": "^0.0.9",
     "unzipper": "^0.12.3",
     "webfonts-generator": "^0.4.0"
