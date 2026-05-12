@@ -7,8 +7,9 @@ const extract = require('unzipper');
 const { svg2png } = require('svg-png-converter');
 const webfontsGenerator = require('webfonts-generator');
 
-// const BASE_URL = 'https://game-icons.net/archives/svg/zip/000000/transparent/game-icons.net.svg.zip';
-const BASE_URL = 'https://github.com/NamiStuff/gameicons-font/raw/refs/heads/master/files/game-icons.net.svg.zip';
+const BASE_URL = 'https://game-icons.net/archives/svg/zip/000000/transparent/game-icons.net.svg.zip';
+// For when the Game Icons security certificate fails (to update .zip in ./files with latest live version)
+// const BASE_URL = 'https://github.com/NamiStuff/gameicons-font/raw/refs/heads/master/files/game-icons.net.svg.zip';
 
 // Variables to define the font class and icon prefix
 const fontClass = 'gi',
